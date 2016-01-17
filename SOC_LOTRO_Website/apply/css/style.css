@@ -1,0 +1,59 @@
+/* Style Sheet created by Matt Marchese + Jeff Larkin 2011 */
+/* For use with SoC LOTRO websites*/
+/* Apply styling */
+
+/*Main column*/
+div.MainColumn {
+	background-image: -moz-linear-gradient(top, #000000, #C0C0C0);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #000000), color-stop(1.0, #C0C0C0));	
+		progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#000000', endColorstr='#C0C0C0'); /* IE6 & IE7 */
+    	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#000000', endColorstr='#C0C0C0')"; /* IE8 */	
+	background-color: #C0C0C0;
+	color: #FFFFFF;
+	border-bottom: 2px solid #FFFFFF;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 60px;
+	overflow: auto;
+	padding-top: 25px;
+}
+
+li.ActiveLastTopic {
+-webkit-border-top-right-radius: 15px;
+-moz-border-radius-topright: 15px;
+border-top-right-radius: 15px;
+background-image: -moz-linear-gradient(top, #C0C0C0, #000000 81%);
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #C0C0C0), color-stop(0.81, #000000));
+	progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#C0C0C0', endColorstr='#000000'); /* IE6 & IE7 */
+    -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#C0C0C0', endColorstr='#000000')"; /* IE8 */	
+background-repeat: no-repeat;
+background-position: center;
+float: left;
+display: inline;
+margin-top: 0px;
+margin-bottom: 0px;
+color: #FFFFFF;
+text-align: center;
+text-decoration: none;
+text-shadow: 1px 1px 1px #696969;
+font-size: 22px;
+font-family: 'IM Fell English SC', serif;
+font-weight: bold;
+background-size: 100%;
+background-repeat: no-repeat;
+background-position: center;
+border-top: 2px solid #FFFFFF;
+border-right: 2px solid #FFFFFF;
+border-bottom: 2px solid #000000;
+background-color: #C0C0C0;
+width: 145px;
+height: 27px;
+padding-top: 4px;
+padding-bottom: 2px;
+margin-top: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+}
